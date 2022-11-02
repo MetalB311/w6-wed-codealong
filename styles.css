@@ -1,7 +1,11 @@
 h1 {
     display: flex;
-    background-color: lightblue;
-    color: red
+    background-color: rgba(0, 0, 255, 0.5);
+    color: red;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
 
 }
 
