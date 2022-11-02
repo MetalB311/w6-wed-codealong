@@ -10,7 +10,18 @@ module.exports = {
     },
     script: (req, res) => {
         res.sendFile(path.join(__dirname, '../../script.js'))
-    }
+    },
+    sig: (req, res) => {
+        res.sendFile(path.join(__dirname, '../../357-sig.jpg'))
+    },
+    Ar: (req, res) => {
+        res.sendFile(path.join(__dirname, '../../556.jpg'))
+    },
+    background: (req, res) => {
+        res.sendFile(path.join(__dirname, '../../background.jpg'))
+    } 
+
+
    
 
 }
